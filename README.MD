@@ -1,4 +1,4 @@
-# Mexicana Smart Solutions: Visualizador de Producción de Hidrocarburos 🛢️📈
+# Mexicana Smart Solutions: Hydrocarbon Production Analytics 🛢️📈
 
 The objective of this repository is to share the developed code created to facilitate access to open-access data provided by the Mexican National Hydrocarbons Commission (CNH).
 
@@ -89,6 +89,18 @@ You can download the standalone executable version [here](https://github.com/haz
 - The Mexicana Smart Solutions logo is used because the application was specifically developed for them.
 - The update functionality does not display a progress bar; however, it works correctly. Please note that the update process may take between 5 to 10 minutes to complete, so patience is advised.
 
+### 💾 Datos and Data_SIH Folders
+
+These folders are intended to store external datasets required to run the Mexicana Visualizer. The ***Data_SIH*** folder is used to store raw data downloaded from the SIH, typically updated when using the *Actualizar* button located at the top left corner of the application window. Additionally, although it may seem repetitive to store similar data in two separate locations, the downloaded SIH data is preprocessed and saved in the ***Datos*** folder. Both folders are kept to allow GUI users to explore and process the raw data manually or to use the visualizer according to their needs. 
+
+Due to GitHub's file size limits, not all large datasets are included in this repository. Therefore, it is recommended to use the *Actualizar* button within the application to download and work with complete and up-to-date information.
+
+If needed, production and reserves data can be manually downloaded from the official website:
+
+🔗 [Sistema de Información de Hidrocarburos (SIH)](https://sih.hidrocarburos.gob.mx/)
+
+Thanks for understanding! 🙌
+
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
@@ -96,6 +108,25 @@ This project is licensed under the [MIT License](LICENSE).
 ## ⚠️ Disclaimer
 
 See [DISCLAIMER](DISCLAIMER.md) for more details about usage conditions.
+
+## 📂 Project Structure
+
+```bash
+Mexicana_Visualizer/
+├── Assets/                     # GIFs, logos and images
+├── build/                      # PyInstaller build artifacts
+├── Data_SIH/                   # Raw datasets downloaded from SIH
+├── Datos/                      # Processed datasets used by the app
+├── DISCLAIMER.md               # Disclaimer about the data usage
+├── LICENSE                     # MIT License file
+├── mssoil.ico                  # Application icon
+├── *.gif                       # Logos used in the visualizer
+├── ProdCNH.exe                 # Standalone executable file
+├── ProdCNH.py                  # Main Python script (Tkinter app)
+├── ProdCNH.spec                # PyInstaller build spec file
+├── README.md                   # Project documentation
+├── Requirements.txt            # Required Python packages
+```
 
 ## 🤝 Credits and special thanks
 
@@ -110,6 +141,7 @@ Furthermore, GPT technologies were utilized to accelerate the updating of code o
   <img src="https://img.shields.io/badge/Built%20with-Tkinter-blueviolet" alt="Built with Tkinter">
   <img src="https://img.shields.io/badge/Developed%20with%20❤️-Mexicana%20Smart%20Solutions-brightgreen" alt="Built by Mexicana">
   <img src="https://img.shields.io/badge/Supported%20by-GPT%20🤖-black" alt="Supported by GPT">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT">
 </p>
 
 
