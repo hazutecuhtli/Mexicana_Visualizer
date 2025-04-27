@@ -60,8 +60,8 @@ At a second level, oil production can also be plotted by well, as shown below. S
 1. **Clone the GitHub repository:**
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
-cd tu-repo
+git clone https://github.com/hazutecuhtli/Mexicana_Visualizer.git
+cd Mexicana_Visualizer
 ```
 
 2. ***Install the required dependencies:***
@@ -74,7 +74,7 @@ cd tu-repo
 
 ### 🛠️ Option 2: Executable (.exe)
 
-You can download the standalone executable version [here](LINK_A_TU_EXE).
+You can download the standalone executable version [here](https://github.com/hazutecuhtli/Mexicana_Visualizer/blob/main/ProdCNH.exe).
 
 > **Important:**  
 > To run the visualizer correctly, you must download **both** the executable file and the necessary resource folders (e.g., Assets, Icons, Data). Ensure that the folder structure remains intact so that the application can access all required files.

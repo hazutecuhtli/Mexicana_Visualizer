@@ -1,0 +1,12 @@
+# Core dependencies
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+openpyxl>=3.0.9
+requests>=2.26.0
+
+# GUI
+tk  # Tkinter is included with Python 3.x standard library
+
+# Python Version
+python_version >= "3.10"
